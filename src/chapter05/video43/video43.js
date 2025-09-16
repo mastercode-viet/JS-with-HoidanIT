@@ -1,4 +1,4 @@
-*console.log("video 43");
+console.log("video 43");
 const sv1 = {
   name: "viet anh",
   age: 22,
@@ -26,10 +26,10 @@ sinhvien.forEach((value, index) => {
     }
 */
 const person = {
-    email: "admin@gmail.com",
-    age: 34
+  email: "admin@gmail.com",
+  age: 34,
+};
+for (let key in person) {
+  console.log(person[key]);
 }
-for(let key in person){
-    console.log(person[key]);
-}
-// for of : duyệt qua giá trị 
+// for of : duyệt qua giá trị
